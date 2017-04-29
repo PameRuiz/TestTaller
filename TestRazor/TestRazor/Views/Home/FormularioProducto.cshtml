@@ -1,0 +1,13 @@
+﻿@model TestRazor.ViewModel.Productos
+@{
+    ViewBag.Title = "FormularioProducto";
+}
+
+<h2>FormularioProducto</h2>
+
+@using (Html.BeginForm("Guardar", "Producto"))
+{
+    @Html.ValidationSummary()
+    @Html.EditorForModel()
+    <input type="submit" />
+}
