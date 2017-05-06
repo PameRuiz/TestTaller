@@ -1,0 +1,388 @@
+06/05/2017 11:20:42 a.m. - INFO: Opened connection at 06/05/2017 11:20:42 a.m. -03:00
+
+06/05/2017 11:20:43 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:20:43 a.m. - INFO: 
+
+06/05/2017 11:20:43 a.m. - INFO: -- p__linq__0: '%pamela%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:20:43 a.m. - INFO: -- p__linq__1: '%pamela%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:20:43 a.m. - INFO: -- Executing at 06/05/2017 11:20:43 a.m. -03:00
+
+06/05/2017 11:20:43 a.m. - INFO: -- Completed in 35 ms with result: SqlDataReader
+
+06/05/2017 11:20:43 a.m. - INFO: 
+
+06/05/2017 11:20:43 a.m. - INFO: Closed connection at 06/05/2017 11:20:43 a.m. -03:00
+
+06/05/2017 11:46:16 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:46:17 a.m. - INFO: Opened connection at 06/05/2017 11:46:17 a.m. -03:00
+
+06/05/2017 11:46:17 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:46:17 a.m. - INFO: 
+
+06/05/2017 11:46:17 a.m. - INFO: -- p__linq__0: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:46:17 a.m. - INFO: -- p__linq__1: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:46:17 a.m. - INFO: -- Executing at 06/05/2017 11:46:17 a.m. -03:00
+
+06/05/2017 11:46:17 a.m. - INFO: -- Completed in 57 ms with result: SqlDataReader
+
+06/05/2017 11:46:17 a.m. - INFO: 
+
+06/05/2017 11:46:17 a.m. - INFO: Closed connection at 06/05/2017 11:46:17 a.m. -03:00
+
+06/05/2017 11:47:19 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:47:19 a.m. - INFO: Opened connection at 06/05/2017 11:47:19 a.m. -03:00
+
+06/05/2017 11:47:19 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:47:19 a.m. - INFO: 
+
+06/05/2017 11:47:19 a.m. - INFO: -- p__linq__0: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:47:19 a.m. - INFO: -- p__linq__1: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:47:19 a.m. - INFO: -- Executing at 06/05/2017 11:47:19 a.m. -03:00
+
+06/05/2017 11:47:19 a.m. - INFO: -- Completed in 11 ms with result: SqlDataReader
+
+06/05/2017 11:47:19 a.m. - INFO: 
+
+06/05/2017 11:47:19 a.m. - INFO: Closed connection at 06/05/2017 11:47:19 a.m. -03:00
+
+06/05/2017 11:48:37 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:48:39 a.m. - INFO: Opened connection at 06/05/2017 11:48:39 a.m. -03:00
+
+06/05/2017 11:48:39 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:48:39 a.m. - INFO: 
+
+06/05/2017 11:48:39 a.m. - INFO: -- p__linq__0: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:48:39 a.m. - INFO: -- p__linq__1: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:48:39 a.m. - INFO: -- Executing at 06/05/2017 11:48:39 a.m. -03:00
+
+06/05/2017 11:48:39 a.m. - INFO: -- Completed in 38 ms with result: SqlDataReader
+
+06/05/2017 11:48:39 a.m. - INFO: 
+
+06/05/2017 11:48:39 a.m. - INFO: Closed connection at 06/05/2017 11:48:39 a.m. -03:00
+
+06/05/2017 11:49:47 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:49:47 a.m. - INFO: Opened connection at 06/05/2017 11:49:47 a.m. -03:00
+
+06/05/2017 11:49:47 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:49:47 a.m. - INFO: 
+
+06/05/2017 11:49:47 a.m. - INFO: -- p__linq__0: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:49:47 a.m. - INFO: -- p__linq__1: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:49:47 a.m. - INFO: -- Executing at 06/05/2017 11:49:47 a.m. -03:00
+
+06/05/2017 11:49:47 a.m. - INFO: -- Completed in 8 ms with result: SqlDataReader
+
+06/05/2017 11:49:47 a.m. - INFO: 
+
+06/05/2017 11:49:47 a.m. - INFO: Closed connection at 06/05/2017 11:49:47 a.m. -03:00
+
+06/05/2017 11:52:07 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:52:07 a.m. - INFO: Opened connection at 06/05/2017 11:52:07 a.m. -03:00
+
+06/05/2017 11:52:07 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:52:07 a.m. - INFO: 
+
+06/05/2017 11:52:07 a.m. - INFO: -- p__linq__0: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:52:07 a.m. - INFO: -- p__linq__1: '%Perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:52:07 a.m. - INFO: -- Executing at 06/05/2017 11:52:07 a.m. -03:00
+
+06/05/2017 11:52:07 a.m. - INFO: -- Completed in 8 ms with result: SqlDataReader
+
+06/05/2017 11:52:07 a.m. - INFO: 
+
+06/05/2017 11:52:07 a.m. - INFO: Closed connection at 06/05/2017 11:52:07 a.m. -03:00
+
+06/05/2017 11:58:49 a.m. - INFO: Pasó por el action busqueda
+06/05/2017 11:58:49 a.m. - INFO: Opened connection at 06/05/2017 11:58:49 a.m. -03:00
+
+06/05/2017 11:58:50 a.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 11:58:50 a.m. - INFO: 
+
+06/05/2017 11:58:50 a.m. - INFO: -- p__linq__0: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:58:50 a.m. - INFO: -- p__linq__1: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 11:58:50 a.m. - INFO: -- Executing at 06/05/2017 11:58:50 a.m. -03:00
+
+06/05/2017 11:58:50 a.m. - INFO: -- Completed in 51 ms with result: SqlDataReader
+
+06/05/2017 11:58:50 a.m. - INFO: 
+
+06/05/2017 11:58:50 a.m. - INFO: Closed connection at 06/05/2017 11:58:50 a.m. -03:00
+
+06/05/2017 12:01:24 p.m. - INFO: Pasó por el action busqueda
+06/05/2017 12:01:24 p.m. - INFO: Opened connection at 06/05/2017 12:01:24 p.m. -03:00
+
+06/05/2017 12:01:25 p.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 12:01:25 p.m. - INFO: 
+
+06/05/2017 12:01:25 p.m. - INFO: -- p__linq__0: '%per%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:01:25 p.m. - INFO: -- p__linq__1: '%per%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:01:25 p.m. - INFO: -- Executing at 06/05/2017 12:01:25 p.m. -03:00
+
+06/05/2017 12:01:25 p.m. - INFO: -- Completed in 45 ms with result: SqlDataReader
+
+06/05/2017 12:01:25 p.m. - INFO: 
+
+06/05/2017 12:01:25 p.m. - INFO: Closed connection at 06/05/2017 12:01:25 p.m. -03:00
+
+06/05/2017 12:04:52 p.m. - INFO: Opened connection at 06/05/2017 12:04:52 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] = @p__linq__0) AND ([Extent1].[Nombre] = @p__linq__1)
+06/05/2017 12:04:53 p.m. - INFO: 
+
+06/05/2017 12:04:53 p.m. - INFO: -- p__linq__0: 'Perez' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:04:53 p.m. - INFO: -- p__linq__1: 'Juan' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:04:53 p.m. - INFO: -- Executing at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: -- Completed in 40 ms with result: SqlDataReader
+
+06/05/2017 12:04:53 p.m. - INFO: 
+
+06/05/2017 12:04:53 p.m. - INFO: Closed connection at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: Opened connection at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: Started transaction at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: DELETE [dbo].[Cliente]
+WHERE ([Id] = @0)
+06/05/2017 12:04:53 p.m. - INFO: 
+
+06/05/2017 12:04:53 p.m. - INFO: -- @0: '12' (Type = Int32)
+
+06/05/2017 12:04:53 p.m. - INFO: -- Executing at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: -- Completed in 6 ms with result: 1
+
+06/05/2017 12:04:53 p.m. - INFO: 
+
+06/05/2017 12:04:53 p.m. - INFO: Committed transaction at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:04:53 p.m. - INFO: Closed connection at 06/05/2017 12:04:53 p.m. -03:00
+
+06/05/2017 12:05:03 p.m. - INFO: Pasó por el action busqueda
+06/05/2017 12:05:03 p.m. - INFO: Opened connection at 06/05/2017 12:05:03 p.m. -03:00
+
+06/05/2017 12:05:03 p.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 12:05:03 p.m. - INFO: 
+
+06/05/2017 12:05:03 p.m. - INFO: -- p__linq__0: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:05:03 p.m. - INFO: -- p__linq__1: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:05:03 p.m. - INFO: -- Executing at 06/05/2017 12:05:03 p.m. -03:00
+
+06/05/2017 12:05:03 p.m. - INFO: -- Completed in 14 ms with result: SqlDataReader
+
+06/05/2017 12:05:03 p.m. - INFO: 
+
+06/05/2017 12:05:03 p.m. - INFO: Closed connection at 06/05/2017 12:05:03 p.m. -03:00
+
+06/05/2017 12:37:00 p.m. - INFO: Pasó por el action busqueda
+06/05/2017 12:37:02 p.m. - INFO: Opened connection at 06/05/2017 12:37:02 p.m. -03:00
+
+06/05/2017 12:37:02 p.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] LIKE @p__linq__0 ESCAPE '~') OR ([Extent1].[Nombre] LIKE @p__linq__1 ESCAPE '~')
+06/05/2017 12:37:02 p.m. - INFO: 
+
+06/05/2017 12:37:02 p.m. - INFO: -- p__linq__0: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:37:02 p.m. - INFO: -- p__linq__1: '%perez%' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:37:02 p.m. - INFO: -- Executing at 06/05/2017 12:37:02 p.m. -03:00
+
+06/05/2017 12:37:02 p.m. - INFO: -- Completed in 40 ms with result: SqlDataReader
+
+06/05/2017 12:37:02 p.m. - INFO: 
+
+06/05/2017 12:37:02 p.m. - INFO: Closed connection at 06/05/2017 12:37:02 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: Opened connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+    WHERE ([Extent1].[Apellido] = @p__linq__0) AND ([Extent1].[Nombre] = @p__linq__1)
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: -- p__linq__0: 'Perez' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:37:14 p.m. - INFO: -- p__linq__1: 'Juan' (Type = AnsiString, Size = 8000)
+
+06/05/2017 12:37:14 p.m. - INFO: -- Executing at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: -- Completed in 10 ms with result: SqlDataReader
+
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: Closed connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: Opened connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: Started transaction at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: DELETE [dbo].[Cliente]
+WHERE ([Id] = @0)
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: -- @0: '15' (Type = Int32)
+
+06/05/2017 12:37:14 p.m. - INFO: -- Executing at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: -- Completed in 15 ms with result: 1
+
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: Committed transaction at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: Closed connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: Opened connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: -- Executing at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:37:14 p.m. - INFO: -- Completed in 5 ms with result: SqlDataReader
+
+06/05/2017 12:37:14 p.m. - INFO: 
+
+06/05/2017 12:37:14 p.m. - INFO: Closed connection at 06/05/2017 12:37:14 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: Opened connection at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: Started transaction at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: INSERT [dbo].[Cliente]([Apellido], [Nombre], [Edad])
+VALUES (@0, @1, @2)
+SELECT [Id]
+FROM [dbo].[Cliente]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+06/05/2017 12:49:18 p.m. - INFO: 
+
+06/05/2017 12:49:18 p.m. - INFO: -- @0: 'Perez' (Type = AnsiString, Size = 70)
+
+06/05/2017 12:49:18 p.m. - INFO: -- @1: 'Ramon' (Type = AnsiString, Size = 70)
+
+06/05/2017 12:49:18 p.m. - INFO: -- @2: '46' (Type = Int32)
+
+06/05/2017 12:49:18 p.m. - INFO: -- Executing at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: -- Completed in 56 ms with result: SqlDataReader
+
+06/05/2017 12:49:18 p.m. - INFO: 
+
+06/05/2017 12:49:18 p.m. - INFO: Committed transaction at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: Closed connection at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: Opened connection at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+06/05/2017 12:49:18 p.m. - INFO: 
+
+06/05/2017 12:49:18 p.m. - INFO: -- Executing at 06/05/2017 12:49:18 p.m. -03:00
+
+06/05/2017 12:49:18 p.m. - INFO: -- Completed in 4 ms with result: SqlDataReader
+
+06/05/2017 12:49:18 p.m. - INFO: 
+
+06/05/2017 12:49:18 p.m. - INFO: Closed connection at 06/05/2017 12:49:18 p.m. -03:00
+

@@ -20,5 +20,20 @@ namespace TestRazor.Models
         {
             return repo.Listar();
         }
+
+        public List<Cliente> Buscar(string cliente)
+        {
+            return repo.Buscar(cliente);
+        }
+
+        public void Eliminar(int id)
+        {
+            repo.Eliminar(id);
+        }
+
+        public void Eliminar(string apellido, string nombre)
+        {
+            repo.Eliminar(apellido, nombre);
+        }
     }
 }

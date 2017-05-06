@@ -5,12 +5,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using TestRazor.Models;
+using System.Web.Mvc;
 
 namespace TestRazor.ViewModel
 {
     public class Clientes
-    {
-        
+    {       
+            [HiddenInput(DisplayValue = false)]
+            public int? Id { get; set; }
             [Required(ErrorMessage ="Te olvidaste de completar este campo!!!")]
             public string Apellido { get; set; }
             [Required]

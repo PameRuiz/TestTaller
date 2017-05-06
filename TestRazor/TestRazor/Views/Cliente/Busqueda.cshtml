@@ -1,0 +1,26 @@
+﻿@model List<TestRazor.ViewModel.Clientes>
+
+<h2>Busqueda</h2>
+
+<table class="table-bordered" cellpadding="3">
+    <thead>
+        <tr>
+            <th> Id </th>
+            <th> Apellido </th>
+            <th> Nombre </th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Id</td>
+                <td>@cliente.Apellido</td>
+                <td>@cliente.Nombre</td>
+                <td>@Html.ActionLink("Eliminar por Apellido y Nombre","EliminarPorApellidoyNombre", new { apellido = @cliente.Apellido, nombre = @cliente.Nombre})</td>
+                <td>@Html.ActionLink("Eliminar por Id", "EliminarPorId", new { id = @cliente.Id})</td>
+            </tr>
+        }
+    </tbody>
+</table>

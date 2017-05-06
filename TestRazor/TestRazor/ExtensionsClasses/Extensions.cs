@@ -30,6 +30,7 @@ namespace TestRazor.ExtensionsClasses
             {
                 var clienteViewModel = new Clientes()
                 {
+                    Id = clienteDelModel.Id,
                     Apellido = clienteDelModel.Apellido,
                     Nombre = clienteDelModel.Nombre
                 };
